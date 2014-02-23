@@ -70,6 +70,10 @@
     <Compile Include="Migrations\201402231946064_AddUltimateParent.Designer.cs">
       <DependentUpon>201402231946064_AddUltimateParent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201402231955598_AddBusinessEntity.cs" />
+    <Compile Include="Migrations\201402231955598_AddBusinessEntity.Designer.cs">
+      <DependentUpon>201402231955598_AddBusinessEntity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mappings\UltimateParentMap.cs" />
@@ -96,6 +100,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201402231946064_AddUltimateParent.resx">
       <DependentUpon>201402231946064_AddUltimateParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402231955598_AddBusinessEntity.resx">
+      <DependentUpon>201402231955598_AddBusinessEntity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
