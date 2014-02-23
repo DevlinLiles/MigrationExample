@@ -74,6 +74,10 @@
     <Compile Include="Migrations\201402231955598_AddBusinessEntity.Designer.cs">
       <DependentUpon>201402231955598_AddBusinessEntity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201402232002094_Adding Auditable to base Entity.cs" />
+    <Compile Include="Migrations\201402232002094_Adding Auditable to base Entity.Designer.cs">
+      <DependentUpon>201402232002094_Adding Auditable to base Entity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mappings\UltimateParentMap.cs" />
@@ -103,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201402231955598_AddBusinessEntity.resx">
       <DependentUpon>201402231955598_AddBusinessEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402232002094_Adding Auditable to base Entity.resx">
+      <DependentUpon>201402232002094_Adding Auditable to base Entity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

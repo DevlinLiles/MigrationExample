@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using Domain;
 using Highway.Data;
 
 namespace Infrastructure
