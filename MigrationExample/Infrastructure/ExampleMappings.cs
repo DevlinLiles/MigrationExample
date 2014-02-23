@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using Domain;
 using Highway.Data;
 
 namespace Infrastructure
@@ -8,6 +9,7 @@ namespace Infrastructure
         public void ConfigureModelBuilder(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new UltimateParentMap());
+            modelBuilder.Configurations.Add(new BusinessEntityMap());
         }
     }
 }

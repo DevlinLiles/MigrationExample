@@ -66,6 +66,14 @@
     <Compile Include="Mappings\BusinessEntityMap.cs" />
     <Compile Include="ExampleMappings.cs" />
     <Compile Include="MigrationContext.cs" />
+    <Compile Include="Migrations\201402231946064_AddUltimateParent.cs" />
+    <Compile Include="Migrations\201402231946064_AddUltimateParent.Designer.cs">
+      <DependentUpon>201402231946064_AddUltimateParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201402232002094_Adding Auditable to base Entity.cs" />
+    <Compile Include="Migrations\201402232002094_Adding Auditable to base Entity.Designer.cs">
+      <DependentUpon>201402232002094_Adding Auditable to base Entity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mappings\UltimateParentMap.cs" />
@@ -88,6 +96,14 @@
       <Project>{C7848182-6D10-478F-941A-E874E4CD3BEA}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201402231946064_AddUltimateParent.resx">
+      <DependentUpon>201402231946064_AddUltimateParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201402232002094_Adding Auditable to base Entity.resx">
+      <DependentUpon>201402232002094_Adding Auditable to base Entity.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,6 +9,10 @@ namespace Infrastructure
         {
             this.ToTable("BusinessEntities");
             this.HasRequired(x => x.Parent).WithMany();
+            this.Property(x => x.Created).IsOptional();
+            this.Property(x => x.CreatedBy).IsOptional();
+            this.Property(x => x.Modified).IsOptional();
+            this.Property(x => x.ModifiedBy).IsOptional();
         } 
     }
 }
