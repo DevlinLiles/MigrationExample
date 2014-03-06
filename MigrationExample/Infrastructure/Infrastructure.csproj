@@ -82,6 +82,10 @@
     <Compile Include="Migrations\201402241304417_ExampleOfSqlBasedMigration.Designer.cs">
       <DependentUpon>201402241304417_ExampleOfSqlBasedMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201403061929521_ExampleAddForStringPRoperty.cs" />
+    <Compile Include="Migrations\201403061929521_ExampleAddForStringPRoperty.Designer.cs">
+      <DependentUpon>201403061929521_ExampleAddForStringPRoperty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mappings\UltimateParentMap.cs" />
@@ -122,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201402241304417_ExampleOfSqlBasedMigration.resx">
       <DependentUpon>201402241304417_ExampleOfSqlBasedMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201403061929521_ExampleAddForStringPRoperty.resx">
+      <DependentUpon>201403061929521_ExampleAddForStringPRoperty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
